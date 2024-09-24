@@ -15,20 +15,20 @@ function showSectionById(id){
     const card3 = document.getElementById('card3');
 
     card1.innerHTML = `
-        <div class="border bg-[#FFFFFF] p-5 md:mt-7 shadow-md rounded-lg w-[1140px] h-[136px] ">
-            <h1 class="font-bold text-xl md:mt-4" >${data1.amount} Taka is Donated for ${data1.title}</h1>
+        <div class="border bg-[#FFFFFF] p-5 md:mt-7 mt-14 shadow-md rounded-lg md:w-[1140px] md:h-[136px] w-[420px] h-[120px] ">
+            <h1 class="font-bold text-base md:mt-4" >${data1.amount} Taka is Donated for ${data1.title}</h1>
             <p class="font-light mt-4 text-[#111111]">${data1.date}</p>
         </div>
     `;
     card2.innerHTML = `
-        <div class="border bg-[#FFFFFF] p-5 md:mt-7 shadow-md rounded-lg w-[1140px] h-[136px] ">
-            <h1 class="font-bold text-xl md:mt-4">${data2.amount} Taka is Donated for ${data2.title}</h1>
+        <div class="border bg-[#FFFFFF] p-5 md:mt-7 mt-14 shadow-md rounded-lg md:w-[1140px] md:h-[136px] w-[420px] h-[120px] ">
+            <h1 class="font-bold text-base md:mt-4">${data2.amount} Taka is Donated for ${data2.title}</h1>
             <p  class="font-light mt-4 text-[#111111]">${data2.date}</p>
         </div>
     `;
     card3.innerHTML = `
-        <div class="border bg-[#FFFFFF] p-5 md:mt-7 shadow-md rounded-lg w-[1140px] h-[136px] ">
-            <h1 class="font-bold text-xl md:mt-4">${data3.amount} Taka is Donated for ${data3.title}</h1>
+        <div class="border bg-[#FFFFFF] p-5 md:mt-7 mt-14 shadow-md rounded-lg md:w-[1140px] md:h-[136px] w-[420px] h-[120px] ">
+            <h1 class="font-bold text-base md:mt-4">${data3.amount} Taka is Donated for ${data3.title}</h1>
             <p  class="font-light mt-4 text-[#111111]">${data3.date}</p>
         </div>
     `;
